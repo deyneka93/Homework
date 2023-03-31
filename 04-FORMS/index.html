@@ -61,7 +61,7 @@
 
 			<fieldset>
 				<legend>Age:</legend>
-				<input type="number" id="age" name="age" min="1" max="100 " required>
+				<input type="number" id="age" name="age" min="1" max="99" required>
 			</fieldset>
 
 			<fieldset>
@@ -70,11 +70,29 @@
 			</fieldset>
 
             <fieldset>
+                <legend>Your skills</legend>
+                <label>
+                    <input type="checkbox" name="skills[]" value="running"> Running
+                </label>
+                <label>
+                    <input type="checkbox" name="skills[]" value="jumping"> Jumping
+                </label>
+                <label>
+                    <input type="checkbox" name="skills[]" value="thinking"> Yoda-thinking
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Favourite picture</legend>
+                <input type="file">
+            </fieldset>
+            <fieldset>
 				<legend>Favorite Color:</legend>
-				<input type="color" id="fav-color" name="fav-color" required>
+				<input type="color" id="fav-color" name="fav-color">
 			</fieldset>
 			<input type="submit" value="Register">
 			<input type="reset" value="Clear">
+
 		</form>
 
 
