@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+	<style>
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+            background-color: #c5e6ec;
+		}
+	</style>
+</head>
+<body>
+    <div class="container">
+		<h2>Registration Form</h2>
+		<form>
+			<fieldset>
+				<legend>Name:</legend>
+				<input type="text" id="name" name="name" required>
+			</fieldset>
+
+			<fieldset>
+				<legend>Email:</legend>
+				<input type="email" id="email" name="email" required>
+			</fieldset>
+
+            <fieldset>
+                <legend>Phone number</legend>
+                <input type="tel" name="phone" placeholder="Номер тел." data-check="required">
+            </fieldset>
+			<fieldset>
+				<legend>Password:</legend>
+				<input type="password" id="password" name="password" required>
+			</fieldset>
+
+			<fieldset>
+				<legend>Confirm Password:</legend>
+				<input type="password" id="submit-password" name="submit-password" required>
+			</fieldset>
+
+			<fieldset>
+				<legend>Gender:</legend>
+				<select id="gender" name="gender" required>
+					<option value="">--Select--</option>
+					<option value="male">Fish</option>
+					<option value="female">Harry P0tter</option>
+					<option value="other">твоя перша класуха</option>
+				</select>
+			</fieldset>
+
+            <fieldset>
+				<legend>Date of Birth:</legend>
+				<input type="date" id="dob" name="dob" required>
+			</fieldset>
+
+			<fieldset>
+				<legend>Age:</legend>
+				<input type="number" id="age" name="age" min="1" max="100 " required>
+			</fieldset>
+
+			<fieldset>
+				<legend>Additional Information:</legend>
+				<textarea id="text-area" name="text-area" rows="4"></textarea>
+			</fieldset>
+
+            <fieldset>
+				<legend>Favorite Color:</legend>
+				<input type="color" id="fav-color" name="fav-color" required>
+			</fieldset>
+			<input type="submit" value="Register">
+			<input type="reset" value="Clear">
+		</form>
+
+
+	</div>
+</body>
+</html>
