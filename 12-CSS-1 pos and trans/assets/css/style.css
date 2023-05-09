@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+
+}
+
+/* ------------------------- HEADER ------------------------- */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header_menu {
+    margin: 13px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_eng {
+    cursor: pointer;
+    margin-right: 50px;
+    font-family: 'Tourney';
+    font-weight: 600;
+    font-size: 22px; 
+    line-height: 18px; 
+    letter-spacing: 0.04em;
+    text-decoration: none;
+}
+
+.menu_text {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size:  22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 70px 0 40px 0;
+}
+
+.heading_text {
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 3px;
+}
+
+.heading_line {
+    Width: 100px;
+    Height: 8px;
+    Top: 20px;
+    background: #000000;
+}
+
+
+.main_grey {
+    height: 435px;
+    padding: 20px 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    gap: 30px;
+}
+
+
+.facebook {
+    background-image: url(../img/facebook_grey.png);
+    background-repeat: no-repeat;
+}
+.facebook:hover {
+    background-image: url(../img/facebook_hover.png);
+    background-repeat: no-repeat;
+}
+
+.instagram {
+    background-image: url(../img/instagram_grey.png);
+    background-repeat: no-repeat;
+}
+.instagram:hover {
+    background-image: url(../img/instagram_hover.png);
+    background-repeat: no-repeat;
+}
+
+.shopify {
+    background-image: url(../img/shopify_black.png);
+    background-repeat: no-repeat;
+}
+.shopify:hover {
+    background-image: url(../img/shopify_hover.png);
+    background-repeat: no-repeat;
+}
+
+.skype {
+    background-image: url(../img/skype_grey.png);
+    background-repeat: no-repeat;
+}
+.skype:hover {
+    background-image: url(../img/skype_hover.png);
+    background-repeat: no-repeat;
+}
+
+.pinterest {
+    background-image: url(../img/pinterest_grey.png);
+    background-repeat: no-repeat;
+}
+.pinterest:hover {
+    background-image: url(../img/pinterest_hover.png);
+    background-repeat: no-repeat;
+}
+
+.wix {
+    background-image: url(../img/wix_grey.png);
+    background-repeat: no-repeat;
+}
+.wix:hover {
+    background-image: url(../img/wix_hover.png);
+    background-repeat: no-repeat;
+}
+
+.saleforse {
+    background-image: url(../img/saleforse_grey.png);
+    background-repeat: no-repeat;
+}
+.saleforse:hover {
+    background-image: url(../img/saleforse_hover.png);
+    background-repeat: no-repeat;
+}
+
+.soundcloud {
+    background-image: url(../img/soundcloud_grey.png);
+    background-repeat: no-repeat;
+}
+.soundcloud:hover {
+    background-image: url(../img/soundcloud_hover.png);
+    background-repeat: no-repeat;
+}

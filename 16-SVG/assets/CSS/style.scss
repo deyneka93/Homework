@@ -1,0 +1,31 @@
+.item_icon {
+    width: 64px;
+    height: 64px;
+    border: 1px solid rgba(21, 101, 216, 0.1);
+    border-radius: 16px;
+    position: relative;
+    transition: all;
+        
+        svg {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: auto;
+            height: 36px;
+            transition: all .2s ease;
+
+            &.blue_icon {
+                opacity: 1;
+            }
+            &.green_icon {
+                opacity: 0;
+            }
+        }
+}
+
+.item {
+    &:hover {
+
+    }
+}
